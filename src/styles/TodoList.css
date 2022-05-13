@@ -1,0 +1,72 @@
+.todo-list
+{
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.todo-list .table-list
+{
+    background-color: white;
+    box-shadow: 0 0 8px 0px black;
+    min-height: 50px;
+    border-radius: 2rem;
+    display: flex;
+    cursor: pointer;
+
+}
+
+.table-content,.content
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    column-gap: 1rem;
+
+}
+
+.table-content
+{
+    width: 100%;
+}
+
+.round
+{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px 0px black;
+}
+
+.color-1
+{
+    background-color: green;
+}
+
+.color-2
+{
+    background-color: gray;
+}
+
+.checkbox
+{
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+
+.cross
+{
+    text-decoration: line-through;
+}
+
+.setup
+{
+    padding-right: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+}
